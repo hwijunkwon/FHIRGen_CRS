@@ -1,0 +1,20 @@
+<AllergyIntolerance xmlns="http://hl7.org/fhir">
+   <id value="allergyintolerance0"></id>
+   <meta>
+      <lastUpdated value="2019-11-13T17:59:01.679+09:00"></lastUpdated>
+   </meta>
+   <code>
+      <coding>
+         <code value="알러지코드"></code>
+         <display value="알러지요인명"></display>
+      </coding>
+      <text value="알러지이름"></text>
+   </code>
+   <patient id="환자 리소스 id"></patient>
+   <recordedDate value="2019-01-01T00:01:00+09:00"></recordedDate>
+   <reaction>
+      <manifestation>
+         <text value="반응"></text>
+      </manifestation>
+   </reaction>
+</AllergyIntolerance>

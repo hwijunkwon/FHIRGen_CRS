@@ -1,0 +1,19 @@
+<Observation xmlns="http://hl7.org/fhir">
+   <id value="observation_specimen0"></id>
+   <meta>
+      <lastUpdated value="2019-11-13T17:59:01.660+09:00"></lastUpdated>
+   </meta>
+   <status value="final"></status>
+   <code>
+      <coding>
+         <code value="검사코드"></code>
+         <display value="검사항목명"></display>
+      </coding>
+      <text value="검사명"></text>
+   </code>
+   <effectiveDateTime value="2019-01-01T00:01:00+09:00"></effectiveDateTime>
+   <valueString value="검사결과값"></valueString>
+   <referenceRange>
+      <text value="참고치"></text>
+   </referenceRange>
+</Observation>

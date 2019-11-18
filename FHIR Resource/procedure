@@ -1,0 +1,19 @@
+<Procedure xmlns="http://hl7.org/fhir">
+   <id value="procedure0"></id>
+   <meta>
+      <lastUpdated value="2019-11-13T17:59:01.672+09:00"></lastUpdated>
+   </meta>
+   <status value="completed"></status>
+   <code>
+      <coding>
+         <code value="수술코드"></code>
+         <display value="수술명"></display>
+      </coding>
+      <text value="수술후진단명"></text>
+   </code>
+   <subject id="환자 리소스 id"></subject>
+   <performedDateTime value="2019-01-01T00:01:00+09:00"></performedDateTime>
+   <usedReference>
+      <display value="마취종류"></display>
+   </usedReference>
+</Procedure>

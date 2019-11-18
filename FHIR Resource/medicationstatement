@@ -1,0 +1,36 @@
+<MedicationStatement xmlns="http://hl7.org/fhir">
+   <id value="medicationstatement0"></id>
+   <meta>
+      <lastUpdated value="2019-11-13T17:59:01.641+09:00"></lastUpdated>
+   </meta>
+   <category>
+      <coding>
+         <code value="주성분코드"></code>
+         <display value="주성분명"></display>
+      </coding>
+   </category>
+   <medicationCodeableConcept>
+      <coding>
+         <code value="처방약품코드"></code>
+         <display value="처방약품명"></display>
+      </coding>
+   </medicationCodeableConcept>
+   <dateAsserted value="2019-01-01T00:01:00+09:00"></dateAsserted>
+   <dosage>
+      <text value="용법"></text>
+      <timing>
+         <repeat>
+            <duration value="30"></duration>
+         </repeat>
+      </timing>
+      <maxDosePerPeriod>
+         <numerator>
+            <value value="1"></value>
+         </numerator>
+         <denominator>
+            <value value="1"></value>
+            <unit value="복용단위"></unit>
+         </denominator>
+      </maxDosePerPeriod>
+   </dosage>
+</MedicationStatement>

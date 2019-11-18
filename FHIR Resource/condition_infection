@@ -1,0 +1,25 @@
+<Condition xmlns="http://hl7.org/fhir">
+   <id value="condition_infection0"></id>
+   <meta>
+      <lastUpdated value="2019-11-13T17:59:01.697+09:00"></lastUpdated>
+   </meta>
+   <clinicalStatus>
+      <text value="확진검사결과"></text>
+   </clinicalStatus>
+   <category>
+      <text value="환자분류"></text>
+   </category>
+   <code>
+      <text value="감염병명"></text>
+   </code>
+   <subject id="환자 리소스 id"></subject>
+   <encounter>
+      <display value="추정감역지역"></display>
+   </encounter>
+   <onsetDateTime value="2019-01-01T00:01:00+09:00"></onsetDateTime>
+   <abatementDateTime value="2019-01-02T00:01:00+09:00"></abatementDateTime>
+   <recordedDate value="2019-01-03T00:01:00+09:00"></recordedDate>
+   <note>
+      <text value="입원여부"></text>
+   </note>
+</Condition>

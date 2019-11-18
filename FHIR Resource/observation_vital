@@ -1,0 +1,57 @@
+<Observation xmlns="http://hl7.org/fhir">
+   <id value="observation_vital0"></id>
+   <meta>
+      <lastUpdated value="2019-11-13T17:59:01.690+09:00"></lastUpdated>
+   </meta>
+   <effectiveDateTime value="2019-01-01T00:01:00+09:00"></effectiveDateTime>
+   <component>
+      <code>
+         <coding>
+            <system value="http://loinc.org"></system>
+            <code value="8302-2"></code>
+            <display value="Body height"></display>
+         </coding>
+      </code>
+      <valueString value="키"></valueString>
+   </component>
+   <component>
+      <code>
+         <coding>
+            <system value="http://loinc.org"></system>
+            <code value="3141-9"></code>
+            <display value="Body weight Measured"></display>
+         </coding>
+      </code>
+      <valueString value="몸무게"></valueString>
+   </component>
+   <component>
+      <code>
+         <coding>
+            <system value="http://loinc.org"></system>
+            <code value="8462-4"></code>
+            <display value="Diastolic blood pressure"></display>
+         </coding>
+      </code>
+      <valueString value="혈압(확장기)"></valueString>
+   </component>
+   <component>
+      <code>
+         <coding>
+            <system value="http://loinc.org"></system>
+            <code value="8480-6"></code>
+            <display value="Systolic blood pressure"></display>
+         </coding>
+      </code>
+      <valueString value="혈압(수축기)"></valueString>
+   </component>
+   <component>
+      <code>
+         <coding>
+            <system value="http://loinc.org"></system>
+            <code value="8310-5"></code>
+            <display value="Body temperature"></display>
+         </coding>
+      </code>
+      <valueString value="체온"></valueString>
+   </component>
+</Observation>

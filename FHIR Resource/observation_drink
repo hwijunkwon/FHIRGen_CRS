@@ -1,0 +1,13 @@
+<Observation xmlns="http://hl7.org/fhir">
+   <id value="observation_drink0"></id>
+   <meta>
+      <lastUpdated value="2019-11-13T17:59:01.695+09:00"></lastUpdated>
+   </meta>
+   <status value="final"></status>
+   <code>
+      <coding>
+         <code value="음주상태코드"></code>
+         <display value="음주상태"></display>
+      </coding>
+   </code>
+</Observation>

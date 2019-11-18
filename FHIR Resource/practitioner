@@ -1,0 +1,23 @@
+<Practitioner xmlns="http://hl7.org/fhir">
+   <id value="practitioner0"></id>
+   <meta>
+      <lastUpdated value="2019-11-13T17:59:01.619+09:00"></lastUpdated>
+   </meta>
+   <identifier>
+      <value value="면허번호"></value>
+   </identifier>
+   <name>
+      <text value="진료의성명"></text>
+   </name>
+   <telecom>
+      <value value="전화"></value>
+   </telecom>
+   <qualification>
+      <code>
+         <coding>
+            <code value="진료과코드"></code>
+            <display value="진료과명"></display>
+         </coding>
+      </code>
+   </qualification>
+</Practitioner>

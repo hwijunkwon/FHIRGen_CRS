@@ -1,0 +1,17 @@
+<Organization xmlns="http://hl7.org/fhir">
+   <id value="organization0"></id>
+   <meta>
+      <lastUpdated value="2019-11-13T17:59:01.623+09:00"></lastUpdated>
+   </meta>
+   <identifier>
+      <value value="기관식별번호"></value>
+   </identifier>
+   <name value="기관명"></name>
+   <alias value="기관기호"></alias>
+   <telecom>
+      <value value="010-1234-1234"></value>
+   </telecom>
+   <address>
+      <text value="주소"></text>
+   </address>
+</Organization>

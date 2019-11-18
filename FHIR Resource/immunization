@@ -1,0 +1,18 @@
+<Immunization xmlns="http://hl7.org/fhir">
+   <id value="immunization0"></id>
+   <meta>
+      <lastUpdated value="2019-11-13T17:59:01.686+09:00"></lastUpdated>
+   </meta>
+   <status value="completed"></status>
+   <vaccineCode>
+      <coding>
+         <code value="예방접종코드"></code>
+         <display value="예방접종명"></display>
+      </coding>
+      <text value="백신명"></text>
+   </vaccineCode>
+   <occurrenceDateTime value="2019-01-01T00:01:00+09:00"></occurrenceDateTime>
+   <protocolApplied>
+      <doseNumberPositiveInt value="1"></doseNumberPositiveInt>
+   </protocolApplied>
+</Immunization>

@@ -1,0 +1,15 @@
+<Person xmlns="http://hl7.org/fhir">
+   <id value="person_documentwriter0"></id>
+   <meta>
+      <lastUpdated value="2019-11-13T17:59:01.628+09:00"></lastUpdated>
+   </meta>
+   <identifier>
+      <value value="문서작성자 id"></value>
+   </identifier>
+   <name>
+      <text value="문서작성자 성명"></text>
+   </name>
+   <telecom>
+      <value value="문서작성자 연락처"></value>
+   </telecom>
+</Person>

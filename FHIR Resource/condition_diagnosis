@@ -1,0 +1,14 @@
+<Condition xmlns="http://hl7.org/fhir">
+   <id value="condition_diagnosis0"></id>
+   <meta>
+      <lastUpdated value="2019-11-13T17:59:01.636+09:00"></lastUpdated>
+   </meta>
+   <code>
+      <coding>
+         <code value="상병코드"></code>
+         <display value="상병명"></display>
+      </coding>
+   </code>
+   <subject id="환자 리소스 id"></subject>
+   <recordedDate value="2019-01-01T00:01:00+09:00"></recordedDate>
+</Condition>

@@ -1,0 +1,26 @@
+<Patient xmlns="http://hl7.org/fhir">
+   <id value="patient0"></id>
+   <meta>
+      <lastUpdated value="2019-11-13T17:59:01.612+09:00"></lastUpdated>
+   </meta>
+   <identifier>
+      <type>
+         <coding>
+            <code value="진료구분코드"></code>
+            <display value="진료구분코드명칭"></display>
+         </coding>
+      </type>
+      <value value="환자id"></value>
+   </identifier>
+   <name>
+      <text value="성명"></text>
+   </name>
+   <telecom>
+      <value value="010-1111-1111"></value>
+   </telecom>
+   <gender value="male"></gender>
+   <birthDate value="1991-01-01"></birthDate>
+   <address>
+      <text value="주소"></text>
+   </address>
+</Patient>
