@@ -31,5 +31,6 @@ public final class Terminology {
     public static final String SMOKE_INFO = "observation_smoke";//흡연상태정보
     public static final String DRINK_INFO = "observation_drink";//음주상태정보
     public static final String INFECTION_INFO = "condition_infection";//법정전염성감염병정보
+    public static final String QUESTIONNAIRERESPONSE_INFO = "questionnaireresponse_kiadl";//노인병센터데이터
 
 }

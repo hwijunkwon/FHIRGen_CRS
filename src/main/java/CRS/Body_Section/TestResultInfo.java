@@ -10,7 +10,7 @@ public class TestResultInfo extends BaseResource {
     static int resourceNum = 0;
     Observation observation = new Observation();
 
-    //리소스 종류, 검사일시, 검사항목명, 검사항목코드, 검사명, 검사결과값, 참고치
+    //검사일시, 검사항목명, 검사항목코드, 검사명, 검사결과값, 참고치
    public TestResultInfo(String kindOfTest, String date, String testList, String testCode,
                          String detailTestName, String testResult, String referenceRange){
 
