@@ -3,17 +3,30 @@ package CRS.Body_Section;
 import CRS.Terminology;
 import CRS.BaseResource;
 import org.hl7.fhir.r4.model.Observation;
+import org.hl7.fhir.r4.model.Resource;
 
 import java.text.ParseException;
 
 //생체신호 및 상태
 public class VitalsignInfo extends BaseResource {
     static int resourceNum = 0;
-    Observation observation = new Observation();
+    Observation observation;
+    public String date,  height,  weight,  bp_dia,  bp_sys,  temperature;
+
+    public VitalsignInfo(Resource resource){
+        observation = (Observation)resource;
+    }
 
     //측정일자, 키, 몸무게, 혈압(확장기), 혈압(수축기), 체온,
     public VitalsignInfo(String date, String height, String weight, String bp_dia, String bp_sys, String temperature){
+        observation = new Observation();
         this.setMetaData(observation, Terminology.VITAL_INFO, resourceNum);
+        this.date = date;
+        this.height = height;
+        this.weight = weight;
+        this.bp_dia = bp_dia;
+        this.bp_sys = bp_sys;
+        this.temperature = temperature;
 
         try {
             observation.getEffectiveDateTimeType().setValue(this.simpleDateFormat.parse(date));

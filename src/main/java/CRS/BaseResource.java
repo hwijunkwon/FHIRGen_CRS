@@ -19,8 +19,12 @@ public class BaseResource {
     public void setMetaData(Resource res, String ResourceName, int resourceNum){
         this.resource = res;
         filename = ResourceName;
-        res.setId(ResourceName + resourceNum++); //*추후 수정해야할듯
+        res.setId(ResourceName); //*추후 수정해야할듯
         res.getMeta().setLastUpdated(new Date());
+    }
+
+    public void setResource(Resource resource){
+        this.resource = resource;
     }
 
     public Resource getResource(){
@@ -34,7 +38,7 @@ public class BaseResource {
     public void getFileFromResource(){
         BufferedWriter writer = null;
         try {
-            writer = new BufferedWriter(new FileWriter("./FHIR Resource/" +filename));
+            writer = new BufferedWriter(new FileWriter("./src/main/java/Parser/FHIR resource/" + filename + ".xml"));
             writer.write(getStringResource());
             writer.close();
         } catch (IOException e) {
